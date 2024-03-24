@@ -1,4 +1,4 @@
-# TOP's Recursion Project
+# TOP's Recursion Project Solution
 
 "Assignment 1" has the solution to the first assignment of The Odin Project's JavaScript Course's Recursion Project.  
 fibs.js has the iterative solution and fibsRec.js has the recursive solution.  
