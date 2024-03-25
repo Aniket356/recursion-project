@@ -4,7 +4,6 @@ const fibsRec = n => {
     else if (n === 2) return [0, 1]
 
     const prev = fibsRec(n-1)
-    const prevToPrev = fibsRec(n-2)
-
-    return prev.concat([prev.at(-1) + prevToPrev.at(-1)])
+    prev.push(prev.at(-1) + prev.at(-2))
+    return prev
 }
